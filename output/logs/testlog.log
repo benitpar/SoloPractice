@@ -587,3 +587,22 @@
 2023-05-26 19:32:02,969 - logger_file -INFO - User writes in review in header and body
 2023-05-26 19:32:05,240 - logger_file -INFO - User clicks on add your review button
 2023-05-26 19:32:05,256 - logger_file -INFO - Review message displayed
+2023-08-04 19:53:15,499 - logger_file -INFO - user is on retail website
+2023-08-04 19:53:15,989 - logger_file -INFO - user cliked on Sign In option
+2023-08-04 19:53:20,567 - logger_file -INFO - user entered email and password
+2023-08-04 19:53:22,927 - logger_file -INFO - user clicked on login button
+2023-08-04 19:53:25,042 - logger_file -INFO - User's logged in
+2023-08-04 19:54:57,982 - logger_file -INFO - user is on retail website
+2023-08-04 19:54:58,640 - logger_file -INFO - user cliked on Sign In option
+2023-08-04 19:55:03,035 - logger_file -INFO - user entered email and password
+2023-08-04 19:55:05,392 - logger_file -INFO - user clicked on login button
+2023-08-04 19:55:07,524 - logger_file -INFO - User's logged in
+2023-08-04 20:08:37,830 - logger_file -INFO - user is on retail website
+2023-08-04 20:08:38,452 - logger_file -INFO - user cliked on Sign In option
+2023-08-04 20:08:43,211 - logger_file -INFO - user entered email and password
+2023-08-04 20:08:45,547 - logger_file -INFO - user clicked on login button
+2023-08-04 20:13:51,769 - logger_file -INFO - user is on retail website
+2023-08-04 20:13:52,548 - logger_file -INFO - user cliked on Sign In option
+2023-08-04 20:13:56,950 - logger_file -INFO - user entered email and password
+2023-08-04 20:13:59,295 - logger_file -INFO - user clicked on login button
+2023-08-04 20:13:59,453 - logger_file -INFO - user logged in into account

@@ -21,28 +21,25 @@ public class RetailSignInPage extends BaseSetup {
 	@FindBy(xpath = "//button[text()='Login']")
 	public WebElement loginButton;
 	
-	@FindBy(id="newAccountBtn")
-	public WebElement createAcctBtn;
+	@FindBy(xpath="//a[text()='TEKSCHOOL']")
+	public WebElement retailLogo;
 	
-	@FindBy(id="nameInput")
-	public WebElement nameField;
+	@FindBy(xpath="//a[@id='signinLink']")
+	public WebElement signInOption;
 	
-	@FindBy(id="emailInput")
-	public WebElement emailbox;
+	@FindBy(xpath="//a[@id='accountLink']")
+	public WebElement accountOption;
 	
-	@FindBy(id="passwordInput")
-	public WebElement passwordBox;
+	@FindBy(xpath="//a[@id='orderLink']")
+	public WebElement ordersOption;
 	
-	@FindBy(id="confirmPasswordInput")
-	public WebElement confirmPassword;
+	@FindBy(xpath="//button[@id='logoutBtn']")
+	public WebElement logOutOption;
 	
-	@FindBy(id="signupBtn")
-	public WebElement signupBtn;
 	
-	@FindBy(xpath="//h1[text()='Your Profile']")
-	public WebElement textVerify;
 	
-	@FindBy(xpath="//input[contains(@id,'NumberInput')]")
-	public WebElement cardNumberverify;
+	
+	
+	
 
 }

@@ -587,3 +587,22 @@
 2023-05-26 19:32:02,969 [main] INFO logger_file - User writes in review in header and body
 2023-05-26 19:32:05,240 [main] INFO logger_file - User clicks on add your review button
 2023-05-26 19:32:05,256 [main] INFO logger_file - Review message displayed
+2023-08-04 19:53:15,499 [main] INFO logger_file - user is on retail website
+2023-08-04 19:53:15,989 [main] INFO logger_file - user cliked on Sign In option
+2023-08-04 19:53:20,567 [main] INFO logger_file - user entered email and password
+2023-08-04 19:53:22,927 [main] INFO logger_file - user clicked on login button
+2023-08-04 19:53:25,042 [main] INFO logger_file - User's logged in
+2023-08-04 19:54:57,982 [main] INFO logger_file - user is on retail website
+2023-08-04 19:54:58,640 [main] INFO logger_file - user cliked on Sign In option
+2023-08-04 19:55:03,035 [main] INFO logger_file - user entered email and password
+2023-08-04 19:55:05,392 [main] INFO logger_file - user clicked on login button
+2023-08-04 19:55:07,524 [main] INFO logger_file - User's logged in
+2023-08-04 20:08:37,830 [main] INFO logger_file - user is on retail website
+2023-08-04 20:08:38,452 [main] INFO logger_file - user cliked on Sign In option
+2023-08-04 20:08:43,211 [main] INFO logger_file - user entered email and password
+2023-08-04 20:08:45,547 [main] INFO logger_file - user clicked on login button
+2023-08-04 20:13:51,769 [main] INFO logger_file - user is on retail website
+2023-08-04 20:13:52,548 [main] INFO logger_file - user cliked on Sign In option
+2023-08-04 20:13:56,950 [main] INFO logger_file - user entered email and password
+2023-08-04 20:13:59,295 [main] INFO logger_file - user clicked on login button
+2023-08-04 20:13:59,453 [main] INFO logger_file - user logged in into account
