@@ -606,3 +606,10 @@
 2023-08-04 20:13:56,950 - logger_file -INFO - user entered email and password
 2023-08-04 20:13:59,295 - logger_file -INFO - user clicked on login button
 2023-08-04 20:13:59,453 - logger_file -INFO - user logged in into account
+2023-08-13 20:31:20,112 - logger_file -INFO - user is on retail website
+2023-08-13 20:31:20,616 - logger_file -INFO - user cliked on Sign In option
+2023-08-13 20:31:24,782 - logger_file -INFO - user entered email and password
+2023-08-13 20:31:27,072 - logger_file -INFO - user clicked on login button
+2023-08-13 20:31:27,150 - logger_file -INFO - user logged in into account
+2023-08-13 20:31:34,752 - logger_file -INFO - user is on retail website
+2023-08-13 20:31:35,172 - logger_file -INFO - user cliked on Sign In option

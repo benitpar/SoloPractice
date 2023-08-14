@@ -36,6 +36,30 @@ public class RetailSignInPage extends BaseSetup {
 	@FindBy(xpath="//button[@id='logoutBtn']")
 	public WebElement logOutOption;
 	
+	@FindBy(xpath="//a[@id='newAccountBtn']")
+	public WebElement createNewAcct;
+	
+	@FindBy(xpath="//input[@id='nameInput']")
+	public WebElement newNameField;
+	
+	@FindBy(xpath="//input[@id='emailInput']")
+	public WebElement newEmailField;
+	
+	@FindBy(xpath="//input[@id='passwordInput']")
+	public WebElement newPasswordField;
+	
+	@FindBy(xpath="//input[@id='confirmPasswordInput']")
+	public WebElement confirmPassWord;
+	
+	@FindBy(xpath="//button[@id='signupBtn']")
+	public WebElement signUpBtn;
+	
+	@FindBy(xpath="//a[@id='accountLink']")
+	public WebElement accountBtn;
+	
+	
+	
+	
 	
 	
 	
