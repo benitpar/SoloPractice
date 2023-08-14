@@ -51,6 +51,39 @@ public class SignInSteps extends CommonUtility{
 		logger.info("user logged in into account");
 	}
 	
+	@When("User click on Create New Account button")
+	public void userClickOnCreateNewAccountButton() {
+		click(factory.signInPage().createNewAcct);
+		slowDown();
+	  
+	}
+	
+	@When("User fill the signUp information with {string},{string},{string} & {string}")
+	public void userFillTheSignUpInformationWith(String name, String email, String password, String confirmPass) {
+		sendText(factory.signInPage().newNameField,name);
+		slowDown();
+		sendText(factory.signInPage().newEmailField,email);
+		slowDown();
+		sendText(factory.signInPage().newPasswordField,password);
+		slowDown();
+		sendText(factory.signInPage().confirmPassWord,confirmPass);
+		slowDown();
+	}
+	
+	@When("User click on SignUp button")
+	public void userClickOnSignUpButton() {
+		click(factory.signInPage().signUpBtn);
+		slowDown();
+	    
+	}
+	
+	@Then("User should be logged into account page")
+	public void userShouldBeLoggedIntoAccountPage() {
+		isElementDisplayed(factory.signInPage().accountBtn);
+		
+	    
+	}
+	
 	
 
 	
