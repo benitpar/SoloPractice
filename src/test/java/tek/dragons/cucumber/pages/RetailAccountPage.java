@@ -12,6 +12,25 @@ public class RetailAccountPage extends BaseSetup {
 		PageFactory.initElements(getDriver(), this);
 	}
 
+	@FindBy(xpath="//a[@id='accountLink']")
+	public WebElement accountBtn;
+	
+	@FindBy(xpath="//input[@id='nameInput']")
+	public WebElement nameField;
+	
+	@FindBy(xpath="//input[@id='personalPhoneInput']")
+	public WebElement cellPhoneField;
+	
+	@FindBy(xpath="//div[text()='Personal Information Updated Successfully']")
+	public WebElement updatedMessage;
+	
+	@FindBy(xpath="//button[@id='personalUpdateBtn']")
+	public WebElement updateBtn;
+	
+	
+	
+	
+	
 	
 
 }

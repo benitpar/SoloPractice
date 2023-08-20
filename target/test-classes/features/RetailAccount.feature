@@ -1,28 +1,22 @@
-@retailAccount
+
 Feature: Retail Account
 
-  Background: 
+Background: 
 
+Given User is on retail website
+When User click on Sign in option
+And User enter email 'louieben300@gmail.com' and password 'Lou@ons123'
+And User click on login button
+Then User should be logged in into Account
+
+@retailAccount
 Scenario: Verify User can update Profile Information
   
+When User clicks on Account option
+And User update Name to 'Jeff' and Phone to '7035956847'
+And User click on Update button
+Then user profile information should be updated
  
 
-Scenario: Verify User can add a payment method
 
-
-
- Scenario: Verify User can edit Debit or Credit card
- 
-
-Scenario: Verify User can remove Debit or Credit card
-
-
-
-Scenario: Verify User can add an Address
-
-
-Scenario: Verify User can edit an Address added on account
-
-
-Scenario: Verify User can remove Address from Account
 
